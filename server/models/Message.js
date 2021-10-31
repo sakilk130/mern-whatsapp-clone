@@ -4,6 +4,7 @@ const MessageSchema = new Schema(
   {
     message: String,
     name: String,
+    received: Boolean,
   },
   {
     timestamps: true,
